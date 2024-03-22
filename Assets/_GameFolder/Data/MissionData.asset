@@ -13,6 +13,9 @@ MonoBehaviour:
   m_Name: MissionData
   m_EditorClassIdentifier: 
   listMissionData:
-  - txtTitle: Number enemy kill
-    missionProgress: 10
+  - txtTitle: Win first game
+    missionProgress: 100
     missionType: 0
+  - txtTitle: Kill fist bot
+    missionProgress: 10
+    missionType: 1

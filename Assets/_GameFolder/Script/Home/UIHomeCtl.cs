@@ -49,6 +49,8 @@ public class UIHomeCtl : MonoBehaviour
 
     public void BtnListener_OpenMasteries()
     {
+        panelMission.gameObject.SetActive(true);
+        panelMission.Show();
     }
 
     public void BtnListener_OpenCollections()

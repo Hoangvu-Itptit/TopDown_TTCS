@@ -15,13 +15,13 @@ public class BasePopup : MonoBehaviour
         btnClose?.onClick.AddListener(Hide);
     }
 
-    public void Show()
+    public virtual void Show()
     {
         main.transform.localScale = Vector3.one * 0.6f;
         main.DOScale(1, 0.33f).SetEase(Ease.Linear);
     }
 
-    public void Hide()
+    public virtual void Hide()
     {
         main.DOScaleX(0.01f, 0.33f).SetEase(Ease.Linear).OnComplete(() =>
         {

@@ -1,5 +1,4 @@
-﻿
-using System;
+﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -18,7 +17,7 @@ public class MissionData
 }
 
 [CreateAssetMenu(fileName = "MissionData", menuName = "datas/MissionData")]
-public class MissionDataSO:ScriptableObject
+public class MissionDataSO : ScriptableObject
 {
     public List<MissionData> listMissionData;
 }
