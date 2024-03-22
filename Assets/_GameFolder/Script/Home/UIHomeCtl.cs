@@ -9,6 +9,7 @@ public class UIHomeCtl : MonoBehaviour
 
     [Header("Panel Shop")] public SelectWeapon panelShopWeapon;
     public SelectCharacter panelShopCharacter;
+    public PanelMission panelMission;
 
 
     #region BtnListener

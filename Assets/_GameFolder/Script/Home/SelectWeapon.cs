@@ -38,9 +38,9 @@ public class SelectWeapon : BasePopup
         PrefData.SetHaveGun(0);
         PrefData.SetHaveGun(1);
 #endif
+        InstanceGun();
 
-
-        #region Funtion Init
+#region Funtion Init
 
         void InstanceGun()
         {
@@ -63,7 +63,7 @@ public class SelectWeapon : BasePopup
             }
         }
 
-        #endregion
+#endregion
     }
 
     public void ChangeUI(int index, GunData data)

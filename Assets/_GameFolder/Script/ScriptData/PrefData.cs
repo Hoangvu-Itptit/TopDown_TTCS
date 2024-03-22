@@ -33,4 +33,24 @@ public class PrefData
     {
         PlayerPrefs.SetInt($"model_{index}", 1);
     }
+    
+    public static int GetNumberKillEnemy()
+    {
+        return PlayerPrefs.GetInt(CONST.NUMBER_OF_KILL, 0);
+    }
+    
+    public static void SetNumberKillEnemy(int number)
+    {
+        PlayerPrefs.SetInt(CONST.NUMBER_OF_KILL, number);
+    }
+    
+    public static int GetNumberWin()
+    {
+        return PlayerPrefs.GetInt(CONST.NUMBER_OF_WIN, 0);
+    }
+    
+    public static void SetNumberWin(int number)
+    {
+        PlayerPrefs.SetInt(CONST.NUMBER_OF_WIN, number);
+    }
 }

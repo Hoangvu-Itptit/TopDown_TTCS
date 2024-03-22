@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CONST : MonoBehaviour
 {
-    #region Human
+#region Human
 
     public static string HUMAN_ANIMATION_IDLE = "Idle";
     public static string HUMAN_ANIMATION_RUN_FORWARD = "Run Forward";
@@ -14,10 +14,10 @@ public class CONST : MonoBehaviour
     public static string HUMAN_ANIMATION_DIE = "Die";
     public static string HUMAN_ANIMATION_IDLE_NO_GUN = "Idle No Gun";
 
-    #endregion
+#endregion
 
 
-    #region Enemy
+#region Enemy
 
     public static string ENEMY_ANIMATION_IDLE = "Idle";
     public static string ENEMY_ANIMATION_WALK = "Walk";
@@ -29,11 +29,18 @@ public class CONST : MonoBehaviour
     public static string ENEMY_ORNN_ANIMATION_ATTACK3 = "ornn_attack3";
     public static string ENEMY_ORNN_ANIMATION_WALK = "ornn_run";
 
-    #endregion
+#endregion
 
-    #region Scene Name
+#region Scene Name
 
     public const string SINGLE_MODE_NAME_SCENE = "SinglePlayer";
 
-    #endregion
+#endregion
+
+#region Prefs
+
+    public const string NUMBER_OF_KILL = "number_of_kill";
+    public const string NUMBER_OF_WIN = "number_of_win";
+    
+#endregion
 }
